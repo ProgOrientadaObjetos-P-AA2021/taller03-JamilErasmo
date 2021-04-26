@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package ejecutor;
-import problema2.EquivalenteHora;
+import problema02.EquivalenteHora;
 
 /**
  *

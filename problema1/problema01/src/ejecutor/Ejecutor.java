@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package ejecutor;
-import Resolucion.Terreno;
+import Terreno.Terreno;
 
 /**
  *

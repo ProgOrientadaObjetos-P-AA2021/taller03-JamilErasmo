@@ -14,9 +14,9 @@ public class ejecutar {
         
    Celular celular = new Celular();
         celular.establecerSistema("Android");
-        celular.establecerTamaño(10);
-        celular.establecerCosto(200);
-        celular.establecerDireccionMac("02;21;68;69");
+        celular.establecerTamaño(20);
+        celular.establecerCosto(400);
+        celular.establecerDireccionMac("05;71;48;59");
         celular.establecerInformacionIMEI("123456789012345");
         System.out.printf("Tipo de sistema: %s\nTamaño de pantalla: "
                 + "%.2f\nCosto: %.2f\nDireccion Mac: %s\nInformaición "

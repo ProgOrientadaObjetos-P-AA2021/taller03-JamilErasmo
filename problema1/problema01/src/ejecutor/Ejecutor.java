@@ -17,20 +17,20 @@ public class Ejecutor {
      */
     public static void main(String[] args) {
         Terreno terreno = new Terreno();
-        Terreno terreno2 = new Terreno();
-        terreno.establecerAncho(100);
-        terreno.establecerLargo(100);
-        terreno.establecerValorMentros(100);
+        Terreno terreno02 = new Terreno();
+        terreno.establecerAncho(300);
+        terreno.establecerLargo(300);
+        terreno.establecerValorMentros(300);
         terreno.calcularArea();
         terreno.calcularCosto();
-        terreno2.establecerAncho(1500);
-        terreno2.establecerLargo(100);
-        terreno2.establecerValorMentros(100);
-        terreno2.calcularArea();
-        terreno2.calcularCosto();
+        terreno02.establecerAncho(3000);
+        terreno02.establecerLargo(300);
+        terreno02.establecerValorMentros(300);
+        terreno02.calcularArea();
+        terreno02.calcularCosto();
         System.out.printf("Terreno 1\nArea = %.2f\nCosto: %.2f\n", 
                 terreno.obtenerArea(), terreno.obtenerCosto());
         System.out.printf("Terreno 2\nArea = %.2f\nCosto: %.2f\n", 
-                terreno2.obtenerArea(), terreno2.obtenerCosto());
+                terreno02.obtenerArea(), terreno02.obtenerCosto());
     }
 }
